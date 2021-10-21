@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context reloadable="fasle">
+	<Resource name='jdbc/app' auth='Container' 
+	type='javax.sql.DataSource' 
+	driverClassName='org.postgresql.Driver'
+	 url='jdbc:postgresql://localhost:5432/app' 
+	 username='#USERNAME#' password='#PASSWORD'>
+	</Resource>
+</context>

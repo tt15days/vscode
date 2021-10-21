@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+	.main {
+		width: 60%;
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0; /*全要素のマージン・パディングをリセット*/
+	line-height: 1.5; /*全要素の行の高さを1.5倍にする*/
+	color: #333333; /*文字色*/
+	text-decoration: none; /*リンクの下線を無くす*/
+}
+
+div #header {
+	height: 60px;
+	padding: 10px;
+}
+
+body {
+	background-color: white; /*ページ全体の背景色*/
+	text-align: center; /*IE6以下でセンタリングするための対策*/
+	margin-left: 18.5%;
+	margin-right: 18.5%;
+}
+
+ul#menu {
+	height: 40px;
+	background-color: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
+	font-size: 20px;
+}
+
+li#menu01, li#menu02, li#menu03, li#menu04, li#menu05 {
+	float: left; /*リスト項目を横に並べる*/
+	display: inline; /*リスト項目をインライン表示にする*/
+	list-style-type: none; /*リストマーカー無しにする*/
+	background-repeat: no-repeat; /*背景画像を繰り返さない*/
+}
+
+ul#menu a:hover {
+	text-decoration: underline;
+}
+
+ul button {
+/* 	display:block;				リンクをブロック表示にする
+ */	height:40px; padding-top:10px; text-align:center;
+	font-family:Arial, Helvetica, sans-serif;	/*フォントの種類*/
+	color: #3B3B3B;
+	font-size: 20px;
+    border: none;  /* 枠線を消す */
+    outline: none; /* クリックしたときに表示される枠線を消す */
+    background: transparent; /* 背景の灰色を消す */
+    cursor: pointer; /* マウスカーソルを乗せると指になる */
+}
+
+botton:hover {
+   text-decoration: underline;
+ }
+
+html {
+	text-align: center;
+}
+
+div button {
+	border: none;
+	background: transparent;
+	margin-top: 24px;
+	margin-left: 16px;
+	margin-right: 16px;
+	cursor: pointer; /* マウスカーソルを乗せると指になる */
+}
+
+button img {
+	width: 132px;
+	height: 178px;
+	display: block;
+	background-color: red;
+}
+
+.product {
+	width: 200px;
+	height: 400px;
+	float: left;
+}
+
+.ranking {
+	margin-bottom: 2px;
+	font-size: 18px;
+	text-align: left;
+}
+
+p {
+	font-size: 18px;
+	text-align: left;
+	margin-top: 2px;
+	width: 160px;
+	height: 96px;
+	word-wrap:break-word
+}
+
+.price {
+	font-size: 22px;
+	text-align: left;
+}
